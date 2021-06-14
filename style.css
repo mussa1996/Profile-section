@@ -1,0 +1,96 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    box-sizing: border-box ;
+    background: rgb(13, 134, 138);
+    background-size: cover;
+    
+
+}
+.card-container{
+    width: 400px;
+    height: 430px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0px 1px 10px 1px #000;
+    overflow: hidden;
+    display: inline-block;
+}
+.upper-container{
+    height: 150px;
+    background: url(/bg-pattern-card.svg);
+
+}
+.lower-container{
+    height: 280px;
+    background:#fff;
+    padding: 20px;
+    padding-top: 14px;
+}
+.image-container{
+    background: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 5px;
+    transform: translate(100px, 100px);
+}
+.image-container img{
+    background: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+}
+.lower-container h3,h4{
+    margin-top: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 6px;
+    font-weight: lighter;
+
+
+}
+.lower-container h4{
+   color: darkgray;
+    opacity: 6px;
+    font-weight: bold;
+    
+
+}
+.lower-container p{
+    text-align: center;
+    font-size: 16px;
+     color: gray;
+     margin-bottom: 30px  ;
+}
+.lower-container h2{
+    text-align: center;
+    font-size: 16px;
+     color: black;
+     margin-bottom: 30px  ;
+}
+
+
+html {
+    background: url('bg-pattern-top.svg') top -30rem left -25rem no-repeat,
+      url('bg-pattern-bottom.svg') bottom -80rem right -15rem no-repeat,
+      hsl(185, 75%, 39%);
+}
+
+
+    @media only screen and (max-width: 375px) {
+        html {
+            background: url('bg-pattern-top.svg') top -30rem left -25rem no-repeat,
+      url('bg-pattern-bottom.svg') bottom -80rem right -15rem no-repeat,
+      hsl(185, 75%, 39%);
+        }
+      }
+    
+
