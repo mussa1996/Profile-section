@@ -5,10 +5,10 @@ html, body, .container {
     text-align: center;
   }
   html {
-    background: url('/images/bg-pattern-top.svg')
+    background: url('../images/bg-pattern-top.svg')
      top -30rem 
      left -15rem no-repeat,
-      url('/images/bg-pattern-bottom.svg')
+      url('../images/bg-pattern-bottom.svg')
        bottom -40rem 
        right -15rem no-repeat,
       hsl(185, 75%, 39%);
@@ -45,7 +45,7 @@ html, body, .container {
         width: 330px;
         height: 380px;
         border-radius: 15px;
-        background-image: url("/images/bg-pattern-card.svg");
+        background-image: url("../images/bg-pattern-card.svg");
         background-color: white;
         background-repeat: no-repeat no-repeat;
         background-size: 100% 37%;
